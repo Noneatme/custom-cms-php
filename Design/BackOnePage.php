@@ -1,0 +1,2 @@
+<a href="javascript:history.go(-1)">Klicken Sie hier, um zur vorherigen Seite zu gelangen.</a></br></br>
+Falls Sie aufgefordert werden, eine erneute Formularbest&auml;tigung zu Senden, dr&uuml;cken Sie bitte die Taste F5.

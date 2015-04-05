@@ -1,0 +1,12 @@
+# .htaccess fuer /Home
+
+# IP-Blocks:
+
+# Verbotene Dateien:
+# MySQL Settings file
+<Files "settings.ini">
+	Order Allow,Deny
+	Deny from all
+</Files>
+
+# Intern

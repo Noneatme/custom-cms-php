@@ -1,0 +1,352 @@
+ @import url(http://fonts.googleapis.com/css?family=Droid+Sans+Mono);
+ @import url(http://fonts.googleapis.com/css?family=Scada:400,700&subset=latin,latin-ext);
+ @import url(http://fonts.googleapis.com/css?family=Jacques+Francois);
+ @import url(http://fonts.googleapis.com/css?family=Droid+Sans);
+ 
+ body 
+ {
+        margin: 0;
+        padding: 0;
+        background-color: lightgray;
+		background-image:url(images/Background.png);
+ }
+
+ #background
+{
+         left: 0px;
+         top: 0px;
+         position: relative;
+         margin-left: auto;
+         margin-right: auto;
+         width: 1020px;
+         height: 1020px;
+         overflow: hidden;
+         z-index:0;
+}
+
+ #Gemeinden
+{
+         left: 0px;
+         top: 224px;
+         position: absolute;
+         width: 208px;
+         height: 770px;
+         z-index:1;
+         border: 2px solid black;
+		 /* background:url(images/Gemeinden.png); */
+		 background: rgb(195,209,221); /* Old browsers */
+		 background: -moz-linear-gradient(top,  rgba(195,209,221,1) 0%, rgba(115,140,136,1) 100%); /* FF3.6+ */
+		 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,209,221,1)), color-stop(100%,rgba(115,140,136,1))); /* Chrome,Safari4+ */
+		 background: -webkit-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Chrome10+,Safari5.1+ */
+		 background: -o-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Opera 11.10+ */
+		 background: -ms-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* IE10+ */
+		 background: linear-gradient(to bottom,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* W3C */
+		 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d1dd', endColorstr='#738c88',GradientType=0 ); /* IE6-9 */
+
+}
+
+ #Logo
+{
+         left: 7px;
+         top: 30px;
+         position: absolute;
+         width: 203px;
+         height: 175px;
+         z-index:2;
+         background:url(images/Logo.png);
+         background-size:100%;
+        /* border: 1px solid black; */
+}
+
+ #Themes
+{
+         left: 210px;
+         top: 165px;
+         position: absolute;
+         width: 806px;
+         height: 57px;
+         border: 2px solid black;
+         z-index:3;
+		 /*background:url(images/Themes.png)*/
+		 background: rgb(195,209,221); /* Old browsers */
+		 background: -moz-linear-gradient(top,  rgba(195,209,221,1) 0%, rgba(115,140,136,1) 100%); /* FF3.6+ */
+		 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,209,221,1)), color-stop(100%,rgba(115,140,136,1))); /* Chrome,Safari4+ */
+		 background: -webkit-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Chrome10+,Safari5.1+ */
+		 background: -o-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Opera 11.10+ */
+		 background: -ms-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* IE10+ */
+		 background: linear-gradient(to bottom,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* W3C */
+		 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d1dd', endColorstr='#738c88',GradientType=0 ); /* IE6-9 */
+		 
+		 text-align: center;
+         text-decoration:none;
+         display: table-cell;
+         vertical-align:middle;
+
+}
+
+ #Header
+{
+         left: 210px;
+         top: 0px;
+         position: absolute;
+         width: 806px;
+         height: 165px;
+         z-index:1;
+	     border: 2px solid black;
+	     background:url(images/Header.png)
+}
+
+ #Main
+{
+         left: 212px;
+         top: 226px;
+         position: absolute;
+         width: 809px;
+         z-index:5;
+		 height:auto;
+		 overflow:scroll;
+		 max-height:773px;
+		 min-height:773px;
+		 background:url(images/Main.png);
+
+}
+
+
+pc.mainText
+{
+	position: absolute;
+    position: absolute;
+    width: 794px;
+	left:3px;
+	font-family: 'Scada';
+		 
+}
+
+pc.headerText
+{
+	left: 5px;
+     	top: 115px;
+    	 position: absolute;
+    	 width: 806px;
+    	 height: 165px;
+	 z-index:4;
+	 font-family: 'Droid Sans', sans-serif;
+	 font-size: 40px;
+	 color:#c1d0db;
+	 text-shadow: -1px 0 black, 0 1px black, 2px 0 black, 0 -2px black;
+}
+
+p.mainTextDoidSans
+{
+	font-family: 'Droid Sans Mono';
+
+}
+
+pc.gemeindeText
+{
+	position: absolute;
+	font-family: 'Scada';
+	font-weight: 400;
+	text-align: left;
+	left: 10px;
+    	position: absolute;
+    	width: 198px;
+    	height: 770px;
+	max-height:770px;
+	overflow-y:auto;
+}
+
+#Footer
+{
+         left: 0px;
+         top: 997px;
+         position: absolute;
+         width: 1016px;
+         height: 23px;
+         z-index:6;
+		 border: 2px solid black;
+		 /* background:url(images/Footer.png) */
+		 background: rgb(195,209,221); /* Old browsers */
+		 background: -moz-linear-gradient(top,  rgba(195,209,221,1) 0%, rgba(115,140,136,1) 100%); /* FF3.6+ */
+		 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,209,221,1)), color-stop(100%,rgba(115,140,136,1))); /* Chrome,Safari4+ */
+		 background: -webkit-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Chrome10+,Safari5.1+ */
+		 background: -o-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* Opera 11.10+ */
+		 background: -ms-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* IE10+ */
+		 background: linear-gradient(to bottom,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%); /* W3C */
+		 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d1dd', endColorstr='#738c88',GradientType=0 ); /* IE6-9 */
+
+}
+p.footerText1
+{
+    top: -16px;
+    position: absolute;
+    font-family: 'Droid Sans Mono';
+    font-weight: bold;
+    font-size: 16px;
+    padding-left:15em;
+    z-index:102;
+}
+
+p.footerText2
+{
+    top: -16px;
+    position: absolute;
+    font-family: 'Droid Sans Mono';
+    font-weight: bold;
+    font-size: 16px;
+    padding-left:45em;
+    z-index:88;
+}
+
+p.footerText3
+{
+    top: -16px;
+    position: absolute;
+    font-family: 'Droid Sans Mono';
+    font-weight: bold;
+    font-size: 16px;
+    padding-left:53em;
+    z-index:86;
+}
+
+
+/* Buttons Themes */
+
+tb1.a
+{
+  left: 0x;
+  top: 0px;
+  position: absolute;
+  width: 161px;
+  height: 57px;
+  z-index:90;
+  font-family: 'Droid Sans';
+  	  text-align: center;
+  text-decoration:none;
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 17;
+
+}
+
+/*tb1.a:hover
+{
+ background:url(images/button2.png);
+}*/
+
+tb1.b
+{
+  left: 161px;
+  top: 0px;
+  position: absolute;
+  width: 161px;
+  height: 57px;
+  z-index:91;
+  background:url(images/button1.png);
+  font-family: 'Droid Sans';
+  	  text-align: center;
+  text-decoration:none;
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 17;
+
+}
+/*tb1.b:hover
+{
+ background:url(images/button2.png);
+}*/
+
+tb1.c
+{
+  left: 322px;
+  top: 0px;
+  position: absolute;
+  width: 161px;
+  height: 57px;
+  z-index:92;
+  background:url(images/button1.png);
+  font-family: 'Droid Sans';
+  	  text-align: center;
+  text-decoration:none;
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 17;
+
+}
+/*
+tb1.c:hover
+{
+ background:url(images/button2.png);
+}*/
+
+tb1.d
+{
+  left: 483px;
+  top: 0px;
+  position: absolute;
+  width: 161px;
+  height: 57px;
+  z-index:94;
+  background:url(images/button1.png);
+  font-family: 'Droid Sans';
+  	  text-align: center;
+  text-decoration:none;
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 17;
+}
+/*tb1.d:hover
+{
+ background:url(images/button2.png);
+}*/
+
+
+tb1.e
+{
+  left: 644px;
+  top: 0px;
+  position: absolute;
+  width: 161px;
+  height: 57px;
+  z-index:94;
+  background:url(images/button1.png);
+  font-family: 'Droid Sans';
+  	  text-align: center;
+  text-decoration:none;
+  display: table-cell;
+  vertical-align:middle;
+  font-size: 17;
+
+  
+}
+/*tb1.e:hover
+{
+ background:url(images/button2.png);
+}*/
+
+#nonehover
+{
+	margin: 0;
+	padding: 0;
+			 background: rgb(195,209,221);  Old browsers 
+		 background: -moz-linear-gradient(top,  rgba(195,209,221,1) 0%, rgba(115,140,136,1) 100%);
+		 background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(195,209,221,1)), color-stop(100%,rgba(115,140,136,1)));
+		 background: -webkit-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%);
+		 background: -o-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%);
+		 background: -ms-linear-gradient(top,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%);
+		 background: linear-gradient(to bottom,  rgba(195,209,221,1) 0%,rgba(115,140,136,1) 100%);
+		 filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#c3d1dd', endColorstr='#738c88',GradientType=0 );
+}
+
+#nonehover:hover
+{
+    background: rgb(116,141,137);
+background: -moz-linear-gradient(top,  rgba(116,141,137,1) 0%, rgba(195,209,221,1) 100%);
+background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,rgba(116,141,137,1)), color-stop(100%,rgba(195,209,221,1)));
+background: -webkit-linear-gradient(top,  rgba(116,141,137,1) 0%,rgba(195,209,221,1) 100%);
+background: -o-linear-gradient(top,  rgba(116,141,137,1) 0%,rgba(195,209,221,1) 100%); 
+background: -ms-linear-gradient(top,  rgba(116,141,137,1) 0%,rgba(195,209,221,1) 100%); 
+background: linear-gradient(to bottom,  rgba(116,141,137,1) 0%,rgba(195,209,221,1) 100%); 
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#748d89', endColorstr='#c3d1dd',GradientType=0 ); 
+}
+
